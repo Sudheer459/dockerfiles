@@ -1,3 +1,4 @@
 FROM almalinux:9
-ADD https://raw.githubusercontent.com/Sudheer459/git-dosa/main/menu.txt/tmp/main/menu.txt
+ADD https://raw.githubusercontent.com/Sudheer459/git-dosa/main/menu.txt /tmp/main/menu.txt
+ADD 
 CMD [ "sleep", "60" ]
